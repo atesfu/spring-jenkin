@@ -13,7 +13,7 @@ public class SpringJenkinApplication {
 
 	@PostConstruct
 	static void init(){
-		logger.info("Application executed ...");
+		logger.info("Application executed ..."); //logger information
 	}
 	
 	public static void main(String[] args) {
